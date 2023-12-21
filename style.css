@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "ChristmasFont";
+    src: url("fontchristmas.ttf");
+}
+
+h1 {
+    font-family: ChristmasFont;
+    text-align: center;
+}
