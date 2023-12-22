@@ -1,30 +1,45 @@
 @font-face {
     font-family: "ChristmasFont";
-    src: url("fontchristmas.ttf");
+    src: url("allura.ttf");
 }
 
 body {
-    background-image: url(bg.jpg);
+    background-image: url(b.jpg);
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.2);
-    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: darken;
     font-family: "ChristmasFont";
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
 
 button {
     font-family: "ChristmasFont";
-    font-size: 1.4em;
-    padding: 0.5em;
+    font-size: 1.5em;
+    padding: 0.4em;
     margin-right: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    background-color: red;
 }
 
 div {
     color: white;
-    margin-left: 32px;
-    margin-right: 55%;
-    text-align: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
 }
+
+audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 50%;
+}
+
 
 ul {
     display: inline-block;
@@ -34,21 +49,22 @@ ul {
 }
 
 h1 {
-    font-size: 2em;
+    color: white;
+    font-size: 2.6em;
     margin-bottom: 16px;
 }
 
 h2 {
-    font-size: 1.7em;
-    margin-top: 4em;
+    font-size: 2.0em;
+    margin-top: 2em;
     margin-bottom: 0px;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 2.0em;
     margin-top: 1.2em;
 }
 
 p, li {
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
